@@ -8,7 +8,7 @@ class Rectangle {
 		return this._width;
 	}
 	get height(){
-		return this.height;
+		return this._height;
 	}
 	getArea(){
 		return this.width * this._height;
