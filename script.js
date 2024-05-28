@@ -23,10 +23,10 @@ class Square extends Rectangle {
 		return 4 * this._width;
 	}
 }
-const rectangle = new Rectangle();
+const rectangle = new Rectangle(5,10);
 console.log(rectangle.getArea());
 
-const square = new Square();
+const square = new Square(7);
 console.log(square.getPerimeter());
 
 // Do not change the code below this line
