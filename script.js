@@ -24,7 +24,7 @@ class Square extends Rectangle {
 		return 4 * this._side;
 	}
 }
-const rectangle = new Rectangle(5,10);
+const rectangle = new Rectangle();
 console.log(rectangle.getArea());
 
 const square = new Square(7);
