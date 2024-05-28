@@ -18,9 +18,10 @@ class Rectangle {
 class Square extends Rectangle {
 	constructor(side){
 		super(side, side);
+		this._side=side;
 	}
 	getPerimeter(){
-		return 4 * this._width;
+		return 4 * this._side;
 	}
 }
 const rectangle = new Rectangle(5,10);
@@ -32,3 +33,4 @@ console.log(square.getPerimeter());
 // Do not change the code below this line
 window.Rectangle = Rectangle;
 window.Square = Square;
+
