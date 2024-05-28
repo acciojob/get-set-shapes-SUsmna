@@ -32,6 +32,7 @@ console.log(rectangle.getArea());
 const square = new Square();
 console.log(Square.width);
 console.log(Square.height);
+console.log(Square.getArea());
 console.log(square.getPerimeter());
 
 // Do not change the code below this line
