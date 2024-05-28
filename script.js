@@ -23,8 +23,11 @@ class Square extends Rectangle {
 		return 4 * this._width;
 	}
 }
-const rectangle = new Rectangle(5,10);
+const rectangle = new Rectangle();
 console.log(rectangle.getArea());
+
+const square = new Square();
+console.log(square.getPerimeter());
 
 // Do not change the code below this line
 window.Rectangle = Rectangle;
